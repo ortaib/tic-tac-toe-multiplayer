@@ -1,0 +1,27 @@
+.board-game-container h2 {
+    text-align: center;
+}
+.actions-wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.join-room input {
+    margin: 0 20px;
+}
+
+.create-room-btn {
+    background: #61dafb;
+}
+.join-room-btn {
+    background: darkgray;
+}
+
+.board-game-container {
+    width: 50%;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    background: #f2f2f2;
+}

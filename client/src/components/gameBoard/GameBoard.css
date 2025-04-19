@@ -1,0 +1,63 @@
+.game-board-msg {
+    text-align: center;
+}
+
+.game-room-modal {
+    margin: 5% auto 15% auto;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    padding-top: 100px;
+}
+
+.game-board-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 10%;
+}
+
+.start-game {
+    display: flex;
+    justify-content: center;
+}
+.game-room-container {
+    position: relative;
+    width: 45%;
+    margin: 10px auto;
+   background: #2196F3;
+}
+
+.game-room-container button {
+    background: #04AA6D;
+}
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+.game-room-header button {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+    background: none;
+    padding: 0 0;
+}
